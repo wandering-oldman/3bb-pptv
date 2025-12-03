@@ -19,9 +19,9 @@ body {
 </style>
 </head>
 <div id="player"></div>
-<script>
+<script>           
   var player = new Clappr.Player({
-          source: 'https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd',
+          source: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd',
           mimeType: 'application/dash+xml',
           height: '100%',
           width: '100%',
@@ -36,7 +36,7 @@ body {
               drm: {
               clearKeys: {
 					'0aeffa7753674e77b99443fac7757b8a':'b8c8a462008a40aa91823e0b02e8dd31'		
-                  }
+                  }  
               },
           },
           shakaOnBeforeLoad: function (shaka_player) {},
